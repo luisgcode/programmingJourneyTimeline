@@ -170,6 +170,7 @@ h6 {
 
 .item:nth-child(even) .labels {
   margin-right: 1rem;
+  order: -1;
 }
 
 .item:nth-child(odd) .labels {
@@ -251,6 +252,7 @@ footer {
   text-align: center;
   margin: 0 auto;
   max-width: 95%;
+  font-size: 1rem;
 }
 
 @media (max-width: 600px) {
