@@ -260,7 +260,7 @@ h6 {
 
 #button-up {
   position: fixed;
-  bottom: 5rem;
+  bottom: 3rem;
   right: 5rem;
   cursor: pointer;
   width: 50px;
@@ -323,5 +323,10 @@ footer a {
 
   .item:nth-child(odd) .labels {
     margin-left: 0;
+  }
+
+  #button-up {
+    bottom: 2rem;
+    right: 2rem;
   }
 }
