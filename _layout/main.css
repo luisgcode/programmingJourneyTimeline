@@ -1,0 +1,287 @@
+/* Created XX April XXXX
+Last update April XX:  */
+
+:root {
+  --zI-1: 1;
+  --zI-2: 2;
+  --zI-3: 3;
+  --zI-4: 4;
+  --zI-5: 5;
+
+  /* --z-nav: var(--zI-2); 100 */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*--- General ---*/
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Kumbh Sans', sans-serif;
+  margin: 0;
+  line-height: 1.6;
+  background-color: #f0f0f0;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(46, 46, 46);
+  font-size: 1.6rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 3rem auto;
+  width: 900px;
+  max-width: 95%;
+  text-align: center;
+}
+
+.intro {
+  margin-bottom: 4rem;
+}
+
+.title {
+  margin-bottom: 2rem;
+  font-size: 2.7rem;
+}
+
+.description {
+  font-size: 2rem;
+  max-width: 95%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.time-line {
+  padding: 2rem;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
+.time-line::after {
+  content: '';
+  width: 5px;
+  border-radius: 5px;
+  height: 100%;
+  position: absolute;
+  background-color: royalblue;
+  background: linear-gradient(rgb(59, 222, 59), rgb(107, 107, 226), #f9f871);
+  left: 50%;
+  transform: translate(-50%) translateY(-20px);
+  z-index: -1;
+}
+
+.item {
+  width: 100%;
+  display: flex;
+  margin: 1rem 0;
+}
+
+.item:nth-child(odd) {
+  justify-content: flex-end;
+  text-align: left;
+  position: relative;
+}
+
+.item:nth-child(even) .header {
+  justify-content: flex-end;
+}
+
+.item:nth-child(even) {
+  justify-content: flex-start;
+  text-align: right;
+  position: relative;
+}
+
+.item:nth-child(odd)::after {
+  content: '';
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border: 3px solid royalblue;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9;
+}
+
+.item:nth-child(even)::before {
+  content: '';
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border: 3px solid royalblue;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9;
+}
+
+.item-container {
+  width: 50%;
+}
+
+.item-info {
+  width: 80%;
+  background-color: white;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.207);
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 1rem;
+  position: relative;
+}
+
+.item-info .header {
+  display: flex;
+  align-items: center;
+}
+
+.header time {
+  font-size: 1.2rem;
+}
+
+.item:nth-child(even) .labels {
+  margin-right: 1rem;
+}
+
+.item:nth-child(odd) .labels {
+  margin-left: 1rem;
+}
+
+.header .labels {
+  display: flex;
+}
+
+.header .label {
+  color: white;
+  font-weight: bold;
+  padding: 0.2rem 0.5rem;
+  font-size: 1rem;
+  margin: 0 0.2rem;
+  border-radius: 3px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.label.udemy {
+  background-color: #a435f0;
+}
+
+.label.pspoken {
+  background-color: rgb(0, 128, 119);
+}
+
+.label.other {
+  background-color: rgb(190, 202, 15);
+}
+
+.label.english {
+  background-color: #c84b31;
+}
+
+.label.cambridge {
+  background-color: #2a2d5f;
+}
+
+.label.html {
+  background-color: #444;
+}
+
+.label.css {
+  background-color: #4e9f3d;
+}
+
+.label.javascript {
+  background-color: #803319;
+}
+
+.label.scrimba {
+  background-color: #c91b0b92;
+}
+
+.info {
+  font-size: 1.4rem;
+}
+
+.info .comment {
+  margin: 1rem 0;
+}
+
+.btn {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.btn:hover {
+  border-bottom: 1px solid #444;
+}
+
+footer {
+  width: 900px;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 95%;
+}
+
+@media (max-width: 600px) {
+  .time-line {
+    padding: 0;
+  }
+
+  .item-info {
+    width: 95%;
+    text-align: center;
+  }
+
+  .header {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .labels {
+    width: 100%;
+  }
+
+  .label {
+    width: 100%;
+  }
+
+  .item:nth-child(even) .labels {
+    margin-right: 0;
+  }
+
+  .item:nth-child(odd) .labels {
+    margin-left: 0;
+  }
+}
