@@ -8,7 +8,7 @@ window.addEventListener('scroll', checkItems);
 checkItems();
 
 function checkItems() {
-  const trigger = (window.innerHeight / 5) * 4;
+  const trigger = (window.innerHeight / 4) * 4;
   items.forEach(function (item) {
     const itemTop = item.getBoundingClientRect().top;
 
