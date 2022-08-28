@@ -258,6 +258,29 @@ h6 {
   border-bottom: 1px solid #444;
 }
 
+#button-up {
+  position: fixed;
+  bottom: 5rem;
+  right: 5rem;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  color: white;
+  border-radius: 50%;
+  border: 5px solid white;
+  font-size: 2rem;
+  display: flex;
+  transition: all 0.1s ease-in;
+  align-items: center;
+  justify-content: center;
+  background-color: royalblue;
+  transform: scale(0);
+}
+
+#button-up:hover {
+  transform: scale(1.1);
+}
+
 footer {
   width: 900px;
   text-align: center;
