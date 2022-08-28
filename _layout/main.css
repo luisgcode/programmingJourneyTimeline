@@ -53,6 +53,7 @@ h6 {
 }
 
 .container {
+  overflow: hidden;
   margin: 3rem auto;
   width: 900px;
   max-width: 95%;
@@ -97,8 +98,14 @@ h6 {
 
 .item {
   width: 100%;
+  opacity: 0;
+  transition: all 1s ease;
   display: flex;
   margin: 1rem 0;
+}
+
+.item.show {
+  opacity: 1;
 }
 
 .item:nth-child(odd) {
@@ -253,6 +260,10 @@ footer {
   margin: 0 auto;
   max-width: 95%;
   font-size: 1rem;
+}
+
+footer a {
+  font-size: 1.2rem;
 }
 
 @media (max-width: 600px) {
