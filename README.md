@@ -2,7 +2,7 @@
 
 I made this timeline to keep an eye on the highlights of my student journey.
 
-In here you can see the entire process from the beginnin to today.
+In here you can see the entire process from the beginning to today.
 
 https://myjourney-timeline.netlify.app/
 
