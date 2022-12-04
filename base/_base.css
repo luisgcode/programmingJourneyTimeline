@@ -1,0 +1,41 @@
+:root {
+  --zI-1: 1;
+  --zI-2: 2;
+  --zI-3: 3;
+  --zI-4: 4;
+  --zI-5: 5;
+
+  /* --z-nav: var(--zI-2); 100 */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*--- General ---*/
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}

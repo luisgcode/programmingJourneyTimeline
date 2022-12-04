@@ -1,0 +1,12 @@
+/* Footer */
+footer {
+  width: 900px;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 95%;
+  font-size: 1rem;
+}
+
+footer a {
+  font-size: 1rem;
+}
