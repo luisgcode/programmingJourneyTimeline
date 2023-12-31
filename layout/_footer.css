@@ -1,9 +1,9 @@
 /* Footer */
 footer {
-  width: 900px;
-  text-align: center;
   margin: 0 auto;
   max-width: 95%;
+  text-align: center;
+  width: 900px;
 }
 
 footer a {

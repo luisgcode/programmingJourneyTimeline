@@ -1,20 +1,20 @@
 #button-up {
-  position: fixed;
-  bottom: 3rem;
-  right: 5rem;
-  cursor: pointer;
-  width: 50px;
-  height: 50px;
-  color: white;
+  align-items: center;
+  background-color: royalblue;
   border-radius: 50%;
   border: 5px solid white;
-  font-size: 2rem;
+  bottom: 3rem;
+  color: white;
+  cursor: pointer;
   display: flex;
-  transition: all 0.1s ease-in;
-  align-items: center;
+  font-size: 2rem;
+  height: 50px;
   justify-content: center;
-  background-color: royalblue;
+  position: fixed;
+  right: 5rem;
   transform: scale(0);
+  transition: all 0.1s ease-in;
+  width: 50px;
 }
 
 #button-up:hover {

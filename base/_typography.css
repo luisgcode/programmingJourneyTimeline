@@ -1,13 +1,13 @@
 body {
-  font-size: 1.6rem;
   font-family: 'Kumbh Sans', sans-serif;
+  font-size: 1.6rem;
   line-height: 1.6;
 }
 
 a {
-  text-decoration: none;
   color: rgb(46, 46, 46);
   font-size: 1.6rem;
+  text-decoration: none;
 }
 
 .wrapper_hero--title {
@@ -15,6 +15,6 @@ a {
 }
 
 .wrapper_hero--text {
-  text-align: center;
   font-size: clamp(1.8rem, 5vw, 2rem);
+  text-align: center;
 }
