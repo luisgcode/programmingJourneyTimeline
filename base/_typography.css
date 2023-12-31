@@ -9,3 +9,12 @@ a {
   color: rgb(46, 46, 46);
   font-size: 1.6rem;
 }
+
+.wrapper_hero--title {
+  font-size: clamp(2.2rem, 5vw, 3rem);
+}
+
+.wrapper_hero--text {
+  text-align: center;
+  font-size: clamp(1.8rem, 5vw, 2rem);
+}

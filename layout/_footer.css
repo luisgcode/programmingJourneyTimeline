@@ -4,9 +4,8 @@ footer {
   text-align: center;
   margin: 0 auto;
   max-width: 95%;
-  font-size: 1rem;
 }
 
 footer a {
-  font-size: 1rem;
+  font-size: clamp(1.3rem, 1vw, 1.8rem);
 }
