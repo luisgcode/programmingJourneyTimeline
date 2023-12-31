@@ -3,6 +3,7 @@
 ## 📜 Timeline Journey 📜
 
 Responsive Timeline where I share my journey as a student since 2021.
+https://myjourney-timeline.netlify.app/
 
 ## 👨‍💻 Used Technologies 👨‍💻
 
